@@ -36,6 +36,8 @@ class Unbound < Formula
       --enable-event-api
       --enable-tfo-client
       --enable-tfo-server
+      --enable-cachedb
+      --with-libhiredis
       --with-libevent=#{Formula["libevent"].opt_prefix}
       --with-libnghttp2=#{Formula["libnghttp2"].opt_prefix}
       --with-ssl=#{Formula["openssl@1.1"].opt_prefix}
